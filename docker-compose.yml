@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    image: my_blockchain_api:latest
+    ports:
+      - "8000:8000"
+    env_file: .env
+    environment:
+      DB_FILE: data/blockchain.db
+    volumes:
+      - ./data:/app/data
+      - ./backup:/app/backup
+    restart: unless-stopped

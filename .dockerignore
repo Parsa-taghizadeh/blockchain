@@ -1,0 +1,17 @@
+.env
+.git
+.gitignore
+.dockerignore
+Dockerfile
+venv/
+__pycache__/
+*.pyc
+*.db
+blockchain.json
+db.json
+data/
+backup/
+var/log/
+blockchain.zip
+.vscode/
+.DS_Store

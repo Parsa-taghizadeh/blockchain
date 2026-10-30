@@ -1,0 +1,22 @@
+# secrets
+.env
+
+# python
+venv/
+__pycache__/
+*.pyc
+
+# data
+*.db
+blockchain.json
+db.json
+data/
+backup/
+
+# logs
+var/log/
+
+# misc
+blockchain.zip
+.vscode/
+.DS_Store
